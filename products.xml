@@ -1,0 +1,19 @@
+
+<products>
+    <product>
+        <name>Floral Fantasy</name>
+        <description>A delicate blend of rose and jasmine.</description>
+    </product>
+    <product>
+        <name>Woody Wonder</name>
+        <description>Rich cedar and sandalwood notes.</description>
+    </product>
+    <product>
+        <name>Citrus Splash</name>
+        <description>Refreshing lemon and orange zest.</description>
+    </product>
+    <product>
+        <name>Oriental Opulence</name>
+        <description>Exotic spices and amber warmth.</description>
+    </product>
+</products>

@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fragrancesampoles.com</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>fragrancesampoles.com</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#poll">Poll</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to fragrancesampoles.com</h2>
+        <p>Discover unique scents and vote for your favorite!</p>
+    </section>
+
+    <section id="products">
+        <h2>Our Fragrance Samples</h2>
+        <div id="product-list"></div>
+    </section>
+
+    <section id="poll">
+        <h2>Vote for Your Favorite Scent</h2>
+        <form id="poll-form">
+            <label><input type="radio" name="scent" value="Floral"> Floral</label><br>
+            <label><input type="radio" name="scent" value="Woody"> Woody</label><br>
+            <label><input type="radio" name="scent" value="Citrus"> Citrus</label><br>
+            <label><input type="radio" name="scent" value="Oriental"> Oriental</label><br>
+            <button type="button" onclick="submitPoll()">Vote</button>
+        </form>
+        <div id="poll-result"></div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label>Name:</label><br>
+            <input type="text" name="name" required><br>
+            <label>Email:</label><br>
+            <input type="email" name="email" required><br>
+            <label>Message:</label><br>
+            <textarea name="message" required></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 fragrancesampoles.com</p>
+    </footer>
+</body>
+</html>
