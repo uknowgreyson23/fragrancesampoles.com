@@ -1,19 +1,18 @@
 
 <products>
     <product>
-        <name>Floral Fantasy</name>
-        <description>A delicate blend of rose and jasmine with a touch of vanilla.</description>
+        <name>Valentino Uomo</name>
+        <description>Bold and sophisticated with notes of leather and coffee.</description>
+        <image>images/valentino.png</image>
     </product>
     <product>
-        <name>Woody Wonder</name>
-        <description>Rich cedar and sandalwood notes with a hint of musk.</description>
+        <name>Jean Paul Gaultier Le Beau</name>
+        <description>Fresh and sensual with coconut wood and tonka bean.</description>
+        <image>images/jpg_le_beau.png</image>
     </product>
     <product>
-        <name>Citrus Splash</name>
-        <description>Refreshing lemon and orange zest with a splash of bergamot.</description>
-    </product>
-    <product>
-        <name>Oriental Opulence</name>
-        <description>Exotic spices and amber warmth with a touch of patchouli.</description>
+        <name>Jean Paul Gaultier Le Male</name>
+        <description>Classic and seductive with lavender, mint, and vanilla.</description>
+        <image>images/jpg_le_male.png</image>
     </product>
 </products>

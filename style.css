@@ -1,71 +1,33 @@
 
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f4f4f9;
-    color: #333;
-}
-
-header {
-    background: #333;
-    color: white;
+.product-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
-    position: fixed;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-image {
     width: 100%;
-    top: 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: auto;
+    border-radius: 8px;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-nav ul li a:hover {
-    color: #ff7f50;
-}
-
-.hero {
-    background: url('https://source.unsplash.com/1600x900/?perfume,fragrance') no-repeat center center/cover;
-    color: white;
-    padding: 100px 20px;
-    text-align: center;
-}
-
-.cta {
+.buy-now {
     background: #ff7f50;
     color: white;
     padding: 10px 20px;
-    text-decoration: none;
+    border: none;
     border-radius: 5px;
+    cursor: pointer;
     transition: background 0.3s;
 }
 
-.cta:hover {
+.buy-now:hover {
     background: #ff4500;
-}
-
-.gallery {
-    padding: 40px 20px;
-    background: white;
-}
-
-footer {
-    background: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
 }
